@@ -1,0 +1,303 @@
+{
+  /******************** FILES ********************/
+  // отключить файлы и папки с ошибками из вкладки Problems
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/vendor": true,
+    "**/node_modules": true
+  },
+  // автоматически сохранять файл с изменениями при потере фокуса
+  "files.autoSave": "onFocusChange",
+  // ассоциировать расширения файлов с типами файлов (для шаблонизаторов и т.д.)
+  "files.associations": {
+    "*.html": "html",
+    "*.twig": "html"
+  },
+  /******************** FILES ********************/
+
+  /******************* SECURITY *******************/
+  // всегда открывать непроверенные файлы в новом окне в ограниченном режиме
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  /******************* SECURITY *******************/
+
+  /******************* EXPLORER *******************/
+  // при удалении спрашивать перемещать ли файл/папку в корзину
+  "explorer.confirmDelete": true,
+  /******************* EXPLORER *******************/
+
+  /******************** WINDOW ********************/
+  // настроить уровень масштабирования
+  "window.zoomLevel": 1,
+  /******************** WINDOW ********************/
+
+  /****************** WORKBENCH ******************/
+  "workbench.editorAssociations": {
+    "*.ipynb": "default"
+  },
+  // включить/выключить статусбар внизу
+  "workbench.statusBar.visible": true,
+  // изменить цветовую тему
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  // изменить иконки
+  "workbench.iconTheme": "vscode-icons",
+  /****************** WORKBENCH ******************/
+
+  /*********** VS CODE ICONS EXTENSION ***********/
+  "vsicons.dontShowNewVersionMessage": true,
+  /*********** VS CODE ICONS EXTENSION ***********/
+
+  /******** MATERIAL ICON THEME EXTENSION ********/
+  "material-icon-theme.folders.theme": "specific",
+  /******** MATERIAL ICON THEME EXTENSION ********/
+
+  /******************** EDITOR ********************/
+  // включить подсказки
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
+  "editor.suggestSelection": "first",
+  // настроить перенос слов
+  "editor.wordWrap": "on",
+  // назначить Prettier форматировщиком по умолчанию
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // форматировать файл при сохранении
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  /******************** EDITOR ********************/
+
+  /************** PRETTIER EXTENSION **************/
+  // чтобы выключить Prettier в коде (например Markdown)
+  // добавить комментарий <!-- prettier-ignore -->
+  // не добавлять точку с запятой в конце каждой строки в js/ts-файлах
+  "prettier.semi": false,
+  // использовать одинарные кавычки вместо двойных в js/ts-файлах
+  "prettier.singleQuote": true,
+  /************** PRETTIER EXTENSION **************/
+
+  /********************* EMMET *********************/
+  // включить замену шаблонов Emmet на HTML/CSS-код по нажатию Tab
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    // включить поддержку React
+    "javascript": "javascriptreact",
+    // включить поддержку нестандартных расширений файлов
+    "twig": "html",
+    "erb": "html",
+    "ruby": "html"
+  },
+  /********************* EMMET *********************/
+
+  /********************** GIT **********************/
+  "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  /********************** GIT **********************/
+
+  /****************** DIFF EDITOR ******************/
+  // не игноровать изменения в начальных или конечных пробелах сравнимаемых файлов
+  "diffEditor.ignoreTrimWhitespace": false,
+  /****************** DIFF EDITOR ******************/
+
+  /******************** TERMINAL ********************/
+  // настроить шрифт в терминале
+  "terminal.integrated.fontFamily": "monospace",
+  /******************** TERMINAL ********************/
+
+  /************** LIVESERVER EXTENSION **************/
+  "liveServer.settings.donotShowInfoMsg": true,
+  /************** LIVESERVER EXTENSION **************/
+
+  /************ OPEN IN BROWSER EXTENSION ************/
+  "open-in-browser.default": "/usr/bin/firefox",
+  /************ OPEN IN BROWSER EXTENSION ************/
+
+  /*************** TODO TREE EXTENSION ***************/
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  /*************** TODO TREE EXTENSION ***************/
+
+  /*********** CODE SPELL CHECKER EXTENSION ***********/
+  // выбрать языки для проверки в тексте правильного написания слов
+  "cSpell.language": "ru,en,en-GB,en-US,ru-RU",
+  "cSpell.ignorePaths": [
+    "**/settings.json",
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "cSpell.enabled": true,
+  "cSpell.userWords": [],
+  /*********** CODE SPELL CHECKER EXTENSION ***********/
+
+  /************* AUTO CLOSE TAG EXTENSION *************/
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  /************* AUTO CLOSE TAG EXTENSION *************/
+
+  /***************** ESLINT EXTENSION *****************/
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "react"
+  ],
+  /***************** ESLINT EXTENSION *****************/
+
+  /******************** JAVASCRIPT ********************/
+  "[javascript]": {
+    // назначить Prettier форматировщиком по умолчанию для JavaScript
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /******************** JAVASCRIPT ********************/
+
+  /******************** TYPESCRIPT ********************/
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  /******************** TYPESCRIPT ********************/
+
+  /***************** TYPESCRIPT REACT *****************/
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  /***************** TYPESCRIPT REACT *****************/
+
+  /****************** JEST EXTENSION ******************/
+  "jest.autoRun": {
+    "watch": false,
+    "onSave": "test-file",
+    "onStartup": ["all-tests"]
+  },
+  /****************** JEST EXTENSION ******************/
+
+  /*********************** JSON ***********************/
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  /*********************** JSON ***********************/
+
+  /*********************** HTML ***********************/
+  // учитывать теги шаблонов django, erb, handlebars и php
+  "html.format.templating": true,
+  /*********************** HTML ***********************/
+
+  /*********************** PHP ***********************/
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php.problems.exclude": {
+    // убрать папку vendor из вкладки Problems
+    "vendor/": true
+  },
+  /*********************** PHP ***********************/
+
+  /************ PHP INTELEPHENSE EXTENSION ************/
+  "intelephense.telemetry.enabled": false,
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
+  ],
+  /************ PHP INTELEPHENSE EXTENSION ************/
+
+  /**************** SQL TOOLS EXTENSION ****************/
+  "sqltools.useNodeRuntime": true,
+  /**************** SQL TOOLS EXTENSION ****************/
+
+  /*********************** RUBY ***********************/
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.rubocop.executePath": "",
+  "ruby.rubocop.onSave": true,
+  "ruby.format": "rubocop",
+  /*********************** RUBY ***********************/
+
+  /****************** PYTHON ******************/
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.linting.ignorePatterns": [
+    "**/site-packages/**/*.py",
+    ".vscode/*.py",
+    "vendor/**/*.py"
+  ],
+  "python.languageServer": "Pylance",
+  "python.pipenvPath": "pipenv",
+  "python.analysis.indexing": false,
+  /****************** PYTHON ******************/
+
+  /******************** GO ********************/
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.useLanguageServer": true,
+  "go.lintOnSave": "package",
+  "go.formatTool": "custom",
+  "go.alternateTools": {
+    "customFormatter": "golines"
+  },
+  "go.docsTool": "gogetdoc",
+  "gopls": {
+    "ui.semanticTokens": true
+  }
+  /******************** GO ********************/
+}
