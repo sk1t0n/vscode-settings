@@ -1,15 +1,10 @@
 {
   /******************** FILES ********************/
-  // отключить файлы и папки с ошибками из вкладки Problems
+  // не показывать файлы и папки на вкладке Explorer
   "files.exclude": {
     "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/vendor": true,
-    "**/node_modules": true
+    "**/Thumbs.db": true
   },
   // автоматически сохранять файл с изменениями при потере фокуса
   "files.autoSave": "onFocusChange",
