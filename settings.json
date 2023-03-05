@@ -219,6 +219,7 @@
 
   /*********************** PHP ***********************/
   "[php]": {
+    // назначить PHP CS Fixer форматировщиком по умолчанию для PHP-файлов
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.formatOnSave": true
   },
@@ -229,7 +230,8 @@
   /*********************** PHP ***********************/
 
   /************** PHP CS FIXER EXTENSION **************/
-  "php-cs-fixer.rules": "@PhpCsFixer",
+  // выбрать правила стиля кодирования PSR12
+  "php-cs-fixer.rules": "@PSR12",
   /************** PHP CS FIXER EXTENSION **************/
 
   /************ PHP INTELEPHENSE EXTENSION ************/
