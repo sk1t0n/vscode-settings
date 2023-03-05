@@ -219,13 +219,18 @@
 
   /*********************** PHP ***********************/
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true
   },
   "php.problems.exclude": {
     // убрать папку vendor из вкладки Problems
     "vendor/": true
   },
   /*********************** PHP ***********************/
+
+  /************** PHP CS FIXER EXTENSION **************/
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  /************** PHP CS FIXER EXTENSION **************/
 
   /************ PHP INTELEPHENSE EXTENSION ************/
   "intelephense.telemetry.enabled": false,
