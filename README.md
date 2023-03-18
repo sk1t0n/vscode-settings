@@ -93,6 +93,10 @@
 1. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 2. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
 
+### Go
+
+1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+
 ### Базы данных
 
 1. [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
