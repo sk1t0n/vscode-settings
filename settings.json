@@ -17,7 +17,7 @@
   /******************** FILES ********************/
 
   /******************* SECURITY *******************/
-  // всегда открывать непроверенные файлы в новом окне в ограниченном режиме
+  // открывать непроверенные файлы в новом окне в ограниченном режиме
   "security.workspace.trust.untrustedFiles": "newWindow",
   /******************* SECURITY *******************/
 
@@ -27,7 +27,7 @@
   /******************* EXPLORER *******************/
 
   /******************** WINDOW ********************/
-  // настроить уровень масштабирования
+  // изменить уровень масштабирования
   "window.zoomLevel": 1,
   /******************** WINDOW ********************/
 
@@ -35,7 +35,7 @@
   "workbench.editorAssociations": {
     "*.ipynb": "default"
   },
-  // включить/выключить статусбар внизу
+  // включить/выключить статус-бар внизу
   "workbench.statusBar.visible": true,
   // изменить цветовую тему
   "workbench.colorTheme": "GitHub Dark Dimmed",
@@ -111,10 +111,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   /************** LIVESERVER EXTENSION **************/
 
-  /************ OPEN IN BROWSER EXTENSION ************/
-  "open-in-browser.default": "/usr/bin/firefox",
-  /************ OPEN IN BROWSER EXTENSION ************/
-
   /**************** REDHAT EXTENSIONS ****************/
   "redhat.telemetry.enabled": false,
   /**************** REDHAT EXTENSIONS ****************/
@@ -133,7 +129,7 @@
   /*************** TODO TREE EXTENSION ***************/
 
   /*********** CODE SPELL CHECKER EXTENSION ***********/
-  // выбрать языки для проверки в тексте правильного написания слов
+  // выбрать языки для проверки орфографии
   "cSpell.language": "ru,en,en-GB,en-US,ru-RU,lorem",
   "cSpell.ignorePaths": [
     "**/settings.json",
@@ -171,10 +167,6 @@
     "plist"
   ],
   /************* AUTO CLOSE TAG EXTENSION *************/
-
-  /*********************** NPM ***********************/
-  "npm.keybindingsChangedWarningShown": true,
-  /*********************** NPM ***********************/
 
   /***************** ESLINT EXTENSION *****************/
   "eslint.probe": [
@@ -214,14 +206,6 @@
   },
   /***************** TYPESCRIPT REACT *****************/
 
-  /****************** JEST EXTENSION ******************/
-  "jest.autoRun": {
-    "watch": false,
-    "onSave": "test-file",
-    "onStartup": ["all-tests"]
-  },
-  /****************** JEST EXTENSION ******************/
-
   /*********************** JSON ***********************/
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -248,7 +232,7 @@
   /************** PHP CS FIXER EXTENSION **************/
   // выбрать правила стиля кодирования
   // @PSR12 - PSR-12 используются вместо устаревших PSR-2
-  // @PhpCsFixer - строже @PSR12, удаляют неиспользованные импорты
+  // @PhpCsFixer - строже @PSR12, удаляются неиспользованные импорты
   "php-cs-fixer.rules": "@PhpCsFixer",
   /************** PHP CS FIXER EXTENSION **************/
 
@@ -270,19 +254,6 @@
   /**************** SQL TOOLS EXTENSION ****************/
   "sqltools.useNodeRuntime": true,
   /**************** SQL TOOLS EXTENSION ****************/
-
-  /*********************** RUBY ***********************/
-  "[ruby]": {
-    "editor.defaultFormatter": "misogi.ruby-rubocop"
-  },
-  "ruby.useLanguageServer": true,
-  "ruby.lint": {
-    "rubocop": true
-  },
-  "ruby.rubocop.executePath": "",
-  "ruby.rubocop.onSave": true,
-  "ruby.format": "rubocop",
-  /*********************** RUBY ***********************/
 
   /****************** PYTHON ******************/
   "[python]": {
