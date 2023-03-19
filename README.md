@@ -97,6 +97,10 @@
 
 1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
 
+### Rust
+
+1. [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
 ### Базы данных
 
 1. [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
