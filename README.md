@@ -29,7 +29,7 @@
 1. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 2. [Russian - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-russian)
 
-### Единый формат настроек для популярных редакторов и IDE
+### Единый формат настроек для популярных редакторов кода и IDE
 
 1. [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
