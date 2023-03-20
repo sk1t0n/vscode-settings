@@ -70,8 +70,11 @@
   /******************** EDITOR ********************/
 
   /************** PRETTIER EXTENSION **************/
-  // чтобы выключить Prettier в коде (например Markdown)
-  // добавить комментарий <!-- prettier-ignore -->
+  // примеры игнорирования кода (Markdown, JS):
+  // <!-- prettier-ignore -->, // prettier-ignore
+  // <!-- prettier-ignore-start --> ... <!-- prettier-ignore-end -->
+  // для переопределения настроек использовать файл .prettierrc.json
+
   // не добавлять точку с запятой в конце каждой строки в js/ts-файлах
   "prettier.semi": false,
   // использовать одинарные кавычки вместо двойных в js/ts-файлах
@@ -187,6 +190,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  // включить форматирование JavaScript-кода
+  // используется Volar для форматирования JS-кода внутри тегов script
+  "javascript.format.enable": true,
   /******************** JAVASCRIPT ********************/
 
   /************************ VUE ************************/
@@ -194,6 +200,8 @@
     // назначить Volar форматировщиком по умолчанию для Vue
     "editor.defaultFormatter": "Vue.volar"
   },
+  // чтобы Volar добавлял точку с запятой раскомментировать следующую строку
+  // "javascript.format.semicolons": "insert",
   /************************ VUE ************************/
 
   /******************** TYPESCRIPT ********************/
@@ -213,6 +221,9 @@
   /*********************** JSON ***********************/
 
   /*********************** HTML ***********************/
+  // включить форматирование HTML-кода
+  // используется Volar для форматирования HTML-элементов внутри тегов template
+  "html.format.enable": true,
   // учитывать теги шаблонов django, erb, handlebars и php
   "html.format.templating": true,
   /*********************** HTML ***********************/
