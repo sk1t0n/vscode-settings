@@ -2,6 +2,39 @@
 
 Репозиторий содержит мои настройки для редактора кода VS Code.
 
+[![license](https://img.shields.io/github/license/sk1t0n/vscode-settings.svg?style=flat-square)](LICENSE) [![vscode-settings](https://img.shields.io/badge/vscode-settings-brightgreen.svg?style=flat-square)](https://github.com/sk1t0n/vscode-settings)
+
+## Меню
+
+- [Замена настроек VS Code](#замена-настроек-vs-code)
+- [Полезные расширения VS Code](#полезные-расширения-vs-code)
+  - [Git](#git)
+  - [Docker](#docker)
+  - [Переменные среды](#переменные-среды)
+  - [Проверка орфографии](#проверка-орфографии)
+  - [Единый формат настроек для популярных редакторов кода и IDE](#единый-формат-настроек-для-популярных-редакторов-кода-и-ide)
+  - [Форматирование кода](#форматирование-кода)
+  - [Apache](#apache)
+  - [Nginx](#nginx)
+  - [PHP](#php)
+    - [Laravel](#laravel)
+  - [JavaScript, TypeScript](#javascript-typescript)
+    - [Vue](#vue)
+  - [Python](#python)
+  - [Go](#go)
+  - [Rust](#rust)
+  - [Базы данных](#базы-данных)
+  - [HTML, XML](#html-xml)
+  - [CSS, SASS](#css-sass)
+  - [Markdown](#markdown)
+  - [reStructuredText](#restructuredtext)
+  - [YAML](#yaml)
+  - [Neon](#neon)
+  - [TOML](#toml)
+  - [Темы, иконки](#темы-иконки)
+  - [Разное](#разное)
+- [Лицензия](#лицензия)
+
 ## Замена настроек VS Code
 
 1. Открыть палитру команд в VS Code: **CTRL + SHIFT + P**
@@ -166,3 +199,7 @@
 11. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 12. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 13. [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+
+## Лицензия
+
+[MIT](LICENSE)
