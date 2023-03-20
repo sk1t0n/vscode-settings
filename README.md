@@ -118,8 +118,9 @@
 
 #### Vue
 
-1. [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-2. [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+1. [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+2. [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+3. [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
 
 ### Python
 
