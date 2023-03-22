@@ -114,7 +114,6 @@
 2. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 3. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 4. [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-5. [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)
 
 #### Vue
 
@@ -199,7 +198,6 @@
 10. [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 11. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 12. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
-13. [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
 ## Лицензия
 
