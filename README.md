@@ -4,7 +4,8 @@
 
 [![license](https://img.shields.io/github/license/sk1t0n/vscode-settings.svg?style=flat-square)](LICENSE) [![vscode-settings](https://img.shields.io/badge/vscode-settings-brightgreen.svg?style=flat-square)](https://github.com/sk1t0n/vscode-settings)
 
-## Меню
+<details>
+<summary>Содержание</summary>
 
 - [Замена настроек VS Code](#замена-настроек-vs-code)
 - [Полезные расширения VS Code](#полезные-расширения-vs-code)
@@ -34,6 +35,8 @@
   - [Темы, иконки](#темы-иконки)
   - [Разное](#разное)
 - [Лицензия](#лицензия)
+
+</details>
 
 ## Замена настроек VS Code
 
