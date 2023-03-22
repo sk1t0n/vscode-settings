@@ -1,3 +1,4 @@
 {
+  // не создавать меню из заголовков Markdown-файла во время сохранения
   "markdown.extension.toc.updateOnSave": false
 }
