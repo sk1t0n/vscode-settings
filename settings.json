@@ -276,11 +276,8 @@
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.python"
   },
-  "python.linting.ignorePatterns": [
-    "**/site-packages/**/*.py",
-    ".vscode/*.py",
-    "vendor/**/*.py"
-  ],
+  "python.analysis.ignore": ["**/vendor/**/*.py"],
+  "python.linting.ignorePatterns": ["**/site-packages/**/*.py", ".vscode/*.py"],
   // назначить black форматировщиком для Python
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
