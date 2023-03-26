@@ -1,4 +1,8 @@
 {
+  /****************** TELEMETRY ******************/
+  "telemetry.telemetryLevel": "off",
+  /****************** TELEMETRY ******************/
+
   /******************** FILES ********************/
   // не показывать файлы и папки на вкладке Explorer
   "files.exclude": {
@@ -100,6 +104,10 @@
   "git.confirmSync": false,
   /********************** GIT **********************/
 
+  /*************** GITLENS EXTENSION ***************/
+  "gitlens.telemetry.enabled": false,
+  /*************** GITLENS EXTENSION ***************/
+
   /****************** DIFF EDITOR ******************/
   // не игноровать изменения в начальных или конечных пробелах сравнимаемых файлов
   "diffEditor.ignoreTrimWhitespace": false,
@@ -117,6 +125,10 @@
   /**************** REDHAT EXTENSIONS ****************/
   "redhat.telemetry.enabled": false,
   /**************** REDHAT EXTENSIONS ****************/
+
+  /************** REST-CLIENT EXTENSION **************/
+  "rest-client.enableTelemetry": false,
+  /************** REST-CLIENT EXTENSION **************/
 
   /*************** TODO TREE EXTENSION ***************/
   "todo-tree.general.tags": [
