@@ -39,6 +39,7 @@
   "workbench.editorAssociations": {
     "*.ipynb": "default"
   },
+  "workbench.enableExperiments": false,
   // включить/выключить статус-бар внизу
   "workbench.statusBar.visible": true,
   // изменить цветовую тему
