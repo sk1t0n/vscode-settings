@@ -103,6 +103,7 @@
   "git.autofetch": true,
   "git.suggestSmartCommit": false,
   "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
   /********************** GIT **********************/
 
   /*************** GITLENS EXTENSION ***************/
