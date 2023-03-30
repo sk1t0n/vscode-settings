@@ -252,6 +252,7 @@
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.formatOnSave": true
   },
+  "php-cs-fixer.ignorePHPVersion": true,
   "php.problems.exclude": {
     // убрать папку vendor из вкладки Problems
     "vendor/": true
