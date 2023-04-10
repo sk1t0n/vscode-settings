@@ -16,6 +16,7 @@
   "files.associations": {
     "*.html": "html",
     "*.twig": "html",
+    "*.latte": "html",
     "*.module": "php"
   },
   /******************** FILES ********************/
@@ -35,19 +36,6 @@
   "window.zoomLevel": 1,
   /******************** WINDOW ********************/
 
-  /****************** WORKBENCH ******************/
-  "workbench.editorAssociations": {
-    "*.ipynb": "default"
-  },
-  "workbench.enableExperiments": false,
-  // включить/выключить статус-бар внизу
-  "workbench.statusBar.visible": true,
-  // изменить цветовую тему
-  "workbench.colorTheme": "GitHub Dark Dimmed",
-  // изменить иконки
-  "workbench.iconTheme": "vscode-icons",
-  /****************** WORKBENCH ******************/
-
   /*********** VS CODE ICONS EXTENSION ***********/
   "vsicons.dontShowNewVersionMessage": true,
   /*********** VS CODE ICONS EXTENSION ***********/
@@ -56,7 +44,28 @@
   "material-icon-theme.folders.theme": "specific",
   /******** MATERIAL ICON THEME EXTENSION ********/
 
+  /****************** WORKBENCH ******************/
+  // изменить иконки
+  "workbench.iconTheme": "vscode-icons",
+  // изменить цветовую тему
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  // включить/выключить статус-бар внизу
+  "workbench.statusBar.visible": true,
+
+  "workbench.editorAssociations": {
+    "*.ipynb": "default"
+  },
+  "workbench.enableExperiments": false,
+
+  "workbench.colorCustomizations": {
+    // изменить цвет вертикальной линии
+    "editorRuler.foreground": "#71797E"
+  },
+  /****************** WORKBENCH ******************/
+
   /******************** EDITOR ********************/
+  // добавить вертикальные линии после заданного количества символов
+  "editor.rulers": [80, 90],
   // включить подсказки
   "editor.quickSuggestions": {
     "comments": true,
@@ -330,6 +339,7 @@
   /******************* RUST *******************/
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  }
+  },
+  "rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"]
   /******************* RUST *******************/
 }
