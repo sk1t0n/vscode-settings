@@ -306,6 +306,12 @@
   "intelephense.files.associations": ["*.php", "*.phtml"],
   /************ PHP INTELEPHENSE EXTENSION ************/
 
+  /*********************** BLADE ***********************/
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  /*********************** BLADE ***********************/
+
   /**************** SQL TOOLS EXTENSION ****************/
   "sqltools.useNodeRuntime": true,
   /**************** SQL TOOLS EXTENSION ****************/
@@ -346,7 +352,7 @@
   "gopls": {
     "ui.semanticTokens": true
   },
-
+  "go.toolsManagement.autoUpdate": true,
   /******************** GO ********************/
 
   /******************* RUST *******************/
