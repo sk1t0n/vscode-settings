@@ -348,7 +348,6 @@
   "go.alternateTools": {
     "customFormatter": "golines"
   },
-  "go.docsTool": "gogetdoc",
   "gopls": {
     "ui.semanticTokens": true
   },
