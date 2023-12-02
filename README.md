@@ -132,6 +132,7 @@
 ### Go
 
 1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+2. [Go Nightly](https://marketplace.visualstudio.com/items?itemName=golang.go-nightly)
 
 ### Rust
 
