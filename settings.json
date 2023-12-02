@@ -75,7 +75,7 @@
   "editor.suggestSelection": "first",
   // настроить перенос слов
   "editor.wordWrap": "on",
-  // назначить Prettier форматировщиком по умолчанию
+  // назначить Prettier линтером по умолчанию
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // форматировать файл при сохранении
   "editor.formatOnSave": true,
@@ -196,7 +196,7 @@
 
   /*********** MARKDOWN ALL IN ONE EXTENSION ***********/
   // не создавать меню из заголовков Markdown-файла во время сохранения
-  // "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.toc.updateOnSave": false,
   /*********** MARKDOWN ALL IN ONE EXTENSION ***********/
 
   /***************** ESLINT EXTENSION *****************/
@@ -214,7 +214,7 @@
 
   /******************** JAVASCRIPT ********************/
   "[javascript]": {
-    // назначить Prettier форматировщиком по умолчанию для JavaScript
+    // назначить Prettier линтером по умолчанию для JavaScript
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -225,7 +225,7 @@
 
   /************************ VUE ************************/
   "[vue]": {
-    // назначить Volar форматировщиком по умолчанию для Vue
+    // назначить Volar линтером по умолчанию для Vue
     "editor.defaultFormatter": "Vue.volar"
   },
   // чтобы Volar добавлял точку с запятой раскомментировать следующую строку
@@ -264,7 +264,7 @@
 
   /*********************** PHP ***********************/
   "[php]": {
-    // назначить PHP CS Fixer форматировщиком по умолчанию для PHP-файлов
+    // назначить PHP CS Fixer линтером по умолчанию для PHP-файлов
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.formatOnSave": true
   },
@@ -322,9 +322,6 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.analysis.ignore": ["**/vendor/**/*.py"],
-  "python.linting.ignorePatterns": ["**/site-packages/**/*.py", ".vscode/*.py"],
-  // назначить black форматировщиком для Python
-  "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
   "python.pipenvPath": "pipenv",
   "python.analysis.indexing": false,
@@ -333,14 +330,14 @@
   /******************** GO ********************/
   "[go]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "golang.go",
+    "editor.defaultFormatter": "golang.go-nightly",
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
   },
   "[go.mod]": {
-    "editor.defaultFormatter": "golang.go"
+    "editor.defaultFormatter": "golang.go-nightly"
   },
   "go.useLanguageServer": true,
   "go.lintOnSave": "package",
