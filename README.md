@@ -179,7 +179,7 @@
 
 ### TOML
 
-1. [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+1. [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 
 ### Темы, иконки
 
