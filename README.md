@@ -117,6 +117,7 @@
 2. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 3. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 4. [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+5. [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
 
 #### Vue
 
