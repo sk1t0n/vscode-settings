@@ -97,6 +97,7 @@
 11. [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
 12. [PHP Profiler](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
 13. [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
+14. [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
 
 #### Laravel
 
