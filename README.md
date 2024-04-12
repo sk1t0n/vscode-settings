@@ -1,6 +1,6 @@
 # vscode-settings
 
-Репозиторий содержит мои настройки для редактора кода VS Code.
+Репозиторий советует полезные расширения для редактора кода VS Code и содержит мои настройки.
 
 [![license](https://img.shields.io/github/license/sk1t0n/vscode-settings.svg?style=flat-square)](LICENSE) [![vscode-settings](https://img.shields.io/badge/vscode-settings-brightgreen.svg?style=flat-square)](https://github.com/sk1t0n/vscode-settings)
 
@@ -9,6 +9,7 @@
 
 - [Замена настроек VS Code](#замена-настроек-vs-code)
 - [Полезные расширения VS Code](#полезные-расширения-vs-code)
+  - [AI](#ai)
   - [Git](#git)
   - [Docker](#docker)
   - [Переменные среды](#переменные-среды)
@@ -17,6 +18,8 @@
   - [Форматирование кода](#форматирование-кода)
   - [Apache](#apache)
   - [Nginx](#nginx)
+  - [Базы данных](#базы-данных)
+  - [C#](#csharp)
   - [PHP](#php)
     - [Laravel](#laravel)
   - [JavaScript, TypeScript](#javascript-typescript)
@@ -24,7 +27,6 @@
   - [Python](#python)
   - [Go](#go)
   - [Rust](#rust)
-  - [Базы данных](#базы-данных)
   - [HTML, XML](#html-xml)
   - [CSS, SASS](#css-sass)
   - [Markdown](#markdown)
@@ -41,20 +43,26 @@
 ## Замена настроек VS Code
 
 1. Открыть палитру команд в VS Code: **CTRL + SHIFT + P**
-2. Ввести **settings**, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**
+2. Ввести json, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**
 3. Частично или полностью заменить содержимое открытого файла содержимым файла **settings.json** из репозитория
 
 ## Полезные расширения VS Code
 
 Некоторые настройки предназначены для конкретного расширения. Ниже представлены основные расширения рекомендуемые к установке.
 
+### AI
+
+1. [Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+
 ### Git
 
 1. [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+2. [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 ### Docker
 
 1. [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+2. [Docker Compose](https://marketplace.visualstudio.com/items?itemName=p1c2u.docker-compose)
 
 ### Переменные среды
 
@@ -81,6 +89,25 @@
 ### Nginx
 
 1. [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
+
+### Базы данных
+
+1. [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
+2. [SQLTools Microsoft SQL Server/Azure](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mssql)
+3. [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
+4. [SQLTools MySQL/MariaDB](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql)
+5. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
+
+### CSharp
+
+1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+2. [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+3. [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
+4. [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets)
+5. [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment)
+6. [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
+7. [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher)
+8. [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
 
 ### PHP
 
@@ -122,14 +149,18 @@
 
 #### Vue
 
-1. [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
-2. [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-3. [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+1. [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+2. [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+3. [Vue 3 Support - All In One](https://marketplace.visualstudio.com/items?itemName=Wscats.vue)
 
 ### Python
 
 1. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 2. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+3. [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
+4. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+5. [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager)
+6. [autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 ### Go
 
@@ -139,13 +170,6 @@
 ### Rust
 
 1. [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-
-### Базы данных
-
-1. [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
-2. [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
-3. [SQLTools MySQL/MariaDB](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql)
-4. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 
 ### HTML, XML
 
@@ -161,12 +185,14 @@
 4. [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
 5. [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 6. [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+7. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ### Markdown
 
 1. [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 2. [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 3. [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+4. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 ### reStructuredText
 
