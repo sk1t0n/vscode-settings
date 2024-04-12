@@ -1,8 +1,18 @@
 {
   /****************** TELEMETRY ******************/
   "telemetry.telemetryLevel": "off",
+  "solidity.telemetry": false,
+  "cloudcode.enableTelemetry": false,
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "redhat.telemetry.enabled": false,
+  "rest-client.enableTelemetry": false,
+  "gitlens.telemetry.enabled": false,
   /****************** TELEMETRY ******************/
-
+  /********************* AI *********************/
+  "codeium.enableConfig": {
+    "*": true
+  },
+  /********************* AI *********************/
   /******************** FILES ********************/
   // не показывать файлы и папки на вкладке Explorer
   "files.exclude": {
@@ -20,30 +30,24 @@
     "*.module": "php"
   },
   /******************** FILES ********************/
-
   /******************* SECURITY *******************/
   // открывать непроверенные файлы в новом окне в ограниченном режиме
   "security.workspace.trust.untrustedFiles": "newWindow",
   /******************* SECURITY *******************/
-
   /******************* EXPLORER *******************/
   // при удалении спрашивать перемещать ли файл/папку в корзину
   "explorer.confirmDelete": true,
   /******************* EXPLORER *******************/
-
   /******************** WINDOW ********************/
   // изменить уровень масштабирования
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.5,
   /******************** WINDOW ********************/
-
   /*********** VS CODE ICONS EXTENSION ***********/
   "vsicons.dontShowNewVersionMessage": true,
   /*********** VS CODE ICONS EXTENSION ***********/
-
   /******** MATERIAL ICON THEME EXTENSION ********/
   "material-icon-theme.folders.theme": "specific",
   /******** MATERIAL ICON THEME EXTENSION ********/
-
   /****************** WORKBENCH ******************/
   // изменить иконки
   "workbench.iconTheme": "vscode-icons",
@@ -51,21 +55,22 @@
   "workbench.colorTheme": "GitHub Dark Dimmed",
   // включить/выключить статус-бар внизу
   "workbench.statusBar.visible": true,
-
   "workbench.editorAssociations": {
     "*.ipynb": "default"
   },
   "workbench.enableExperiments": false,
-
   "workbench.colorCustomizations": {
     // изменить цвет вертикальной линии
     "editorRuler.foreground": "#71797E"
   },
+  "workbench.settings.applyToAllProfiles": [],
   /****************** WORKBENCH ******************/
-
   /******************** EDITOR ********************/
   // добавить вертикальные линии после заданного количества символов
-  "editor.rulers": [80, 90],
+  "editor.rulers": [
+    80,
+    90
+  ],
   // включить подсказки
   "editor.quickSuggestions": {
     "comments": true,
@@ -81,20 +86,18 @@
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.linkedEditing": true,
   /******************** EDITOR ********************/
-
   /************** PRETTIER EXTENSION **************/
   // примеры игнорирования кода (Markdown, JS):
   // <!-- prettier-ignore -->, // prettier-ignore
   // <!-- prettier-ignore-start --> ... <!-- prettier-ignore-end -->
   // для переопределения настроек использовать файл .prettierrc.json
-
   // не добавлять точку с запятой в конце каждой строки в js/ts-файлах
   "prettier.semi": false,
   // использовать одинарные кавычки вместо двойных в js/ts-файлах
   "prettier.singleQuote": true,
   /************** PRETTIER EXTENSION **************/
-
   /********************* EMMET *********************/
   // включить замену шаблонов Emmet на HTML/CSS-код по нажатию Tab
   "emmet.triggerExpansionOnTab": true,
@@ -107,40 +110,25 @@
     "ruby": "html"
   },
   /********************* EMMET *********************/
-
   /********************** GIT **********************/
   "git.autofetch": true,
   "git.suggestSmartCommit": false,
   "git.confirmSync": false,
   "git.ignoreRebaseWarning": true,
+  "gitlens.views.commitDetails.files.layout": "list",
+  "gitlens.graph.minimap.enabled": false,
   /********************** GIT **********************/
-
-  /*************** GITLENS EXTENSION ***************/
-  "gitlens.telemetry.enabled": false,
-  /*************** GITLENS EXTENSION ***************/
-
   /****************** DIFF EDITOR ******************/
   // не игноровать изменения в начальных или конечных пробелах сравнимаемых файлов
   "diffEditor.ignoreTrimWhitespace": false,
   /****************** DIFF EDITOR ******************/
-
   /******************** TERMINAL ********************/
   // настроить шрифт в терминале
   "terminal.integrated.fontFamily": "monospace",
   /******************** TERMINAL ********************/
-
   /************** LIVESERVER EXTENSION **************/
   "liveServer.settings.donotShowInfoMsg": true,
   /************** LIVESERVER EXTENSION **************/
-
-  /**************** REDHAT EXTENSIONS ****************/
-  "redhat.telemetry.enabled": false,
-  /**************** REDHAT EXTENSIONS ****************/
-
-  /************** REST-CLIENT EXTENSION **************/
-  "rest-client.enableTelemetry": false,
-  /************** REST-CLIENT EXTENSION **************/
-
   /*************** TODO TREE EXTENSION ***************/
   "todo-tree.general.tags": [
     "BUG",
@@ -153,7 +141,6 @@
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   /*************** TODO TREE EXTENSION ***************/
-
   /*********** CODE SPELL CHECKER EXTENSION ***********/
   // выбрать языки для проверки орфографии
   "cSpell.language": "ru,en,en-GB,en-US,ru-RU,lorem",
@@ -169,7 +156,6 @@
   "cSpell.enabled": true,
   "cSpell.userWords": [],
   /*********** CODE SPELL CHECKER EXTENSION ***********/
-
   /************* AUTO CLOSE TAG EXTENSION *************/
   "auto-close-tag.activationOnLanguage": [
     "xml",
@@ -193,12 +179,10 @@
     "plist"
   ],
   /************* AUTO CLOSE TAG EXTENSION *************/
-
   /*********** MARKDOWN ALL IN ONE EXTENSION ***********/
   // не создавать меню из заголовков Markdown-файла во время сохранения
   "markdown.extension.toc.updateOnSave": false,
   /*********** MARKDOWN ALL IN ONE EXTENSION ***********/
-
   /***************** ESLINT EXTENSION *****************/
   "eslint.probe": [
     "javascript",
@@ -211,7 +195,6 @@
     "react"
   ],
   /***************** ESLINT EXTENSION *****************/
-
   /******************** JAVASCRIPT ********************/
   "[javascript]": {
     // назначить Prettier линтером по умолчанию для JavaScript
@@ -222,7 +205,6 @@
   // используется Volar для форматирования JS-кода внутри тегов script
   "javascript.format.enable": true,
   /******************** JAVASCRIPT ********************/
-
   /************************ VUE ************************/
   "[vue]": {
     // назначить Volar линтером по умолчанию для Vue
@@ -231,23 +213,22 @@
   // чтобы Volar добавлял точку с запятой раскомментировать следующую строку
   // "javascript.format.semicolons": "insert",
   /************************ VUE ************************/
-
   /******************** TYPESCRIPT ********************/
   "typescript.updateImportsOnFileMove.enabled": "always",
   /******************** TYPESCRIPT ********************/
-
   /***************** TYPESCRIPT REACT *****************/
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   /***************** TYPESCRIPT REACT *****************/
-
   /*********************** JSON ***********************/
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   /*********************** JSON ***********************/
-
   /*********************** HTML ***********************/
   // включить форматирование HTML-кода
   // используется Volar для форматирования HTML-элементов внутри тегов template
@@ -255,13 +236,11 @@
   // учитывать теги шаблонов django, erb, handlebars и php
   "html.format.templating": true,
   /*********************** HTML ***********************/
-
   /*********************** XML ***********************/
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
   /*********************** XML ***********************/
-
   /*********************** PHP ***********************/
   "[php]": {
     // назначить PHP CS Fixer линтером по умолчанию для PHP-файлов
@@ -273,7 +252,6 @@
     "vendor/": true
   },
   /*********************** PHP ***********************/
-
   /************** PHP CS FIXER EXTENSION **************/
   // выбрать правила стиля кодирования
   // @PSR12 - PSR-12 использовался вместо устаревшего PSR-2
@@ -290,7 +268,6 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.lastDownload": 0,
   /************** PHP CS FIXER EXTENSION **************/
-
   /************ PHP INTELEPHENSE EXTENSION ************/
   "intelephense.telemetry.enabled": false,
   "intelephense.files.exclude": [
@@ -303,37 +280,37 @@
     "**/bower_components/**",
     "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
   ],
-  "intelephense.files.associations": ["*.php", "*.phtml"],
+  "intelephense.files.associations": [
+    "*.php",
+    "*.phtml"
+  ],
   /************ PHP INTELEPHENSE EXTENSION ************/
-
   /*********************** BLADE ***********************/
   "[blade]": {
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
   /*********************** BLADE ***********************/
-
   /**************** SQL TOOLS EXTENSION ****************/
   "sqltools.useNodeRuntime": true,
   /**************** SQL TOOLS EXTENSION ****************/
-
   /****************** PYTHON ******************/
   "[python]": {
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.python"
   },
-  "python.analysis.ignore": ["**/vendor/**/*.py"],
+  "python.analysis.ignore": [
+    "**/vendor/**/*.py"
+  ],
   "python.languageServer": "Pylance",
-  "python.pipenvPath": "pipenv",
   "python.analysis.indexing": false,
   /****************** PYTHON ******************/
-
   /******************** GO ********************/
   "[go]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "golang.go-nightly",
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "[go.mod]": {
@@ -350,11 +327,19 @@
   },
   "go.toolsManagement.autoUpdate": true,
   /******************** GO ********************/
-
   /******************* RUST *******************/
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"]
+  "rust-analyzer.diagnostics.disabled": [
+    "unresolved-proc-macro"
+  ],
   /******************* RUST *******************/
+  /**************** EXTENSIONS ****************/
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.showReleaseNotes": false,
+  "update.mode": "none"
+  /**************** EXTENSIONS ****************/
 }
