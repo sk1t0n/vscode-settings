@@ -125,6 +125,12 @@
 	],
 	/************* AUTO CLOSE TAG EXTENSION *************/
 
+	/********************* MARKDOWN *********************/
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	/********************* MARKDOWN *********************/
+
 	/*********** MARKDOWN ALL IN ONE EXTENSION ***********/
 	"markdown.extension.toc.updateOnSave": false,
 	/*********** MARKDOWN ALL IN ONE EXTENSION ***********/
