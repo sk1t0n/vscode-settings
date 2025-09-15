@@ -1,6 +1,13 @@
 {
+	/********************** AI **********************/
+	"codeium.enableConfig": {
+		"*": true,
+		"markdown": true
+	},
+	/********************** AI **********************/
+
 	/****************** TELEMETRY ******************/
-	"telemetry.telemetryLevel": "off",
+	"telemetry.telemetryLevel": "all",
 	"redhat.telemetry.enabled": false,
 	"rest-client.enableTelemetry": false,
 	/****************** TELEMETRY ******************/
@@ -52,13 +59,6 @@
 	"editor.unicodeHighlight.nonBasicASCII": false,
 	"editor.linkedEditing": true,
 	/******************** EDITOR ********************/
-
-	/********************** AI **********************/
-	"codeium.enableConfig": {
-		"*": true,
-		"markdown": true
-	},
-	/********************** AI **********************/
 
 	/********************* EMMET *********************/
 	"emmet.triggerExpansionOnTab": true,
