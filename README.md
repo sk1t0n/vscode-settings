@@ -1,39 +1,32 @@
 # vscode-settings
 
-Репозиторий советует полезные расширения для редактора кода VS Code и содержит мои настройки.
+Мои настройки и установленные расширения для редактора кода VS Code.
 
-[![license](https://img.shields.io/github/license/sk1t0n/vscode-settings.svg?style=flat-square)](LICENSE) [![vscode-settings](https://img.shields.io/badge/vscode-settings-brightgreen.svg?style=flat-square)](https://github.com/sk1t0n/vscode-settings)
+[![license](https://img.shields.io/github/license/sk1t0n/vscode-settings.svg?style=flat-square)](LICENSE) [![vscode-settings](https://img.shields.io/badge/vscode-settings-brightgreen.svg?style=flat-square)](settings.json)
 
 <details>
 <summary>Содержание</summary>
 
 - [Замена настроек VS Code](#замена-настроек-vs-code)
-- [Полезные расширения VS Code](#полезные-расширения-vs-code)
+- [92 Расширения для VS Code](#92-расширения-для-vs-code)
   - [AI](#ai)
   - [Git](#git)
-  - [Docker](#docker)
+  - [Docker, Kubernetes](#docker-kubernetes)
   - [Переменные среды](#переменные-среды)
   - [Проверка орфографии](#проверка-орфографии)
   - [Единый формат настроек для популярных редакторов кода и IDE](#единый-формат-настроек-для-популярных-редакторов-кода-и-ide)
-  - [Форматирование кода](#форматирование-кода)
-  - [Apache](#apache)
-  - [Nginx](#nginx)
+  - [Apache, Nginx](#apache-nginx)
   - [Базы данных](#базы-данных)
-  - [C#](#csharp)
   - [PHP](#php)
     - [Laravel](#laravel)
   - [JavaScript, TypeScript](#javascript-typescript)
-    - [Vue](#vue)
   - [Python](#python)
   - [Go](#go)
   - [Rust](#rust)
   - [HTML, XML](#html-xml)
-  - [CSS, SASS](#css-sass)
+  - [CSS](#css)
   - [Markdown](#markdown)
-  - [reStructuredText](#restructuredtext)
-  - [YAML](#yaml)
-  - [Neon](#neon)
-  - [TOML](#toml)
+  - [YAML, Neon, TOML](#yaml-neon-toml)
   - [Темы, иконки](#темы-иконки)
   - [Разное](#разное)
 - [Лицензия](#лицензия)
@@ -42,27 +35,30 @@
 
 ## Замена настроек VS Code
 
-1. Открыть палитру команд в VS Code: **CTRL + SHIFT + P**
-2. Ввести json, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**
-3. Частично или полностью заменить содержимое открытого файла содержимым файла **settings.json** из репозитория
+1. Открыть палитру команд в VS Code: **CTRL + SHIFT + P**.
+2. Ввести json, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**.
+3. Частично или полностью заменить содержимое открытого файла содержимым файла **settings.json** из репозитория.
 
-## Полезные расширения VS Code
-
-Некоторые настройки предназначены для конкретного расширения. Ниже представлены основные расширения рекомендуемые к установке.
+## 92 Расширения для VS Code
 
 ### AI
 
-1. [Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript, Java, Go, and more](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+1. [Windsurf Plugin (formerly Codeium): AI Coding Autocomplete and Chat for Python, JavaScript, TypeScript, and more](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+2. [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+3. [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 
 ### Git
 
-1. [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+1. [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 2. [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+3. [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+4. [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+5. [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
 
-### Docker
+### Docker, Kubernetes
 
-1. [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-2. [Docker Compose](https://marketplace.visualstudio.com/items?itemName=p1c2u.docker-compose)
+1. [Container Tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
+2. [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
 
 ### Переменные среды
 
@@ -77,54 +73,38 @@
 
 1. [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-### Форматирование кода
+### Apache, Nginx
 
-1. [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-### Apache
-
-1. [Apache Conf Snippets](https://marketplace.visualstudio.com/items?itemName=eiminsasete.apacheconf-snippets)
-2. [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
-
-### Nginx
-
-1. [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
+1. [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache)
+2. [Apache Conf Snippets](https://marketplace.visualstudio.com/items?itemName=eiminsasete.apacheconf-snippets)
+3. [NGINX Configuration Language Support](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
 
 ### Базы данных
 
 1. [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
-2. [SQLTools Microsoft SQL Server/Azure](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mssql)
-3. [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
-4. [SQLTools MySQL/MariaDB](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql)
-5. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
-
-### CSharp
-
-1. [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-2. [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
-3. [C# Extensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
-4. [C# Snippets](https://marketplace.visualstudio.com/items?itemName=jorgeserrano.vscode-csharp-snippets)
-5. [C# XML Documentation Comments](https://marketplace.visualstudio.com/items?itemName=k--kato.docomment)
-6. [.NET Core Tools](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet)
-7. [ASP.NET Core Switcher](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.asp-net-core-switcher)
-8. [ASP.NET Helper](https://marketplace.visualstudio.com/items?itemName=schneiderpat.aspnet-helper)
+2. [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
+3. [SQLTools MySQL/MariaDB](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql)
+4. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 
 ### PHP
 
 1. [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
-2. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
-3. [PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
+2. [PHPUnit Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.phpunit-snippets)
+3. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 4. [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
-5. [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-6. [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
-7. [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
-8. [PHP Getters & Setters](https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters)
-9. [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
-10. [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
-11. [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
-12. [PHP Profiler](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
-13. [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
-14. [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
+5. [PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
+6. [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+7. [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
+8. [PhpStorm Parameter Hints in VScode](https://marketplace.visualstudio.com/items?itemName=MrChetan.phpstorm-parameter-hints-in-vscode)
+9. [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+10. [PHP Getters & Setters](https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters)
+11. [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
+12. [PHP Add Property](https://marketplace.visualstudio.com/items?itemName=kotfire.php-add-property)
+13. [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
+14. [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
+15. [PHP Profiler](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
+16. [PHPUnit Test Explorer](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit)
+17. [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
 
 #### Laravel
 
@@ -141,31 +121,23 @@
 
 ### JavaScript, TypeScript
 
-1. [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-2. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-3. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+1. [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
+2. [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+3. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 4. [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 5. [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
-
-#### Vue
-
-1. [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-2. [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-3. [Vue 3 Support - All In One](https://marketplace.visualstudio.com/items?itemName=Wscats.vue)
 
 ### Python
 
 1. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 2. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-3. [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
-4. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-5. [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager)
-6. [autoDocstring - Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+3. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+4. [Python Environments](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs)
 
 ### Go
 
 1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
-2. [Go Nightly](https://marketplace.visualstudio.com/items?itemName=golang.go-nightly)
+2. [go-lines](https://marketplace.visualstudio.com/items?itemName=gofenix.go-lines)
 
 ### Rust
 
@@ -173,48 +145,36 @@
 
 ### HTML, XML
 
-1. [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-2. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-3. [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+1. [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+2. [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+3. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+4. [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
+5. [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 
-### CSS, SASS
+### CSS
 
-1. [Sass (.sass only)](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented)
-2. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-3. [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-4. [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
-5. [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-6. [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-7. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+1. [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+2. [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
+3. [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+4. [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ### Markdown
 
 1. [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-2. [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-3. [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-4. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+2. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+3. [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+4. [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
 
-### reStructuredText
-
-1. [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext)
-
-### YAML
+### YAML, Neon, TOML
 
 1. [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-
-### Neon
-
-1. [Nette Latte + Neon](https://marketplace.visualstudio.com/items?itemName=Kasik96.latte)
-
-### TOML
-
-1. [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+2. [Nette Latte + Neon](https://marketplace.visualstudio.com/items?itemName=Kasik96.latte)
+3. [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 
 ### Темы, иконки
 
 1. [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 2. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-3. [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ### Разное
 
@@ -229,7 +189,9 @@
 9. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 10. [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 11. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-12. [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
+12. [Draw Folder Structure](https://marketplace.visualstudio.com/items?itemName=jmkrivocapich.drawfolderstructure)
+13. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+14. [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 ## Лицензия
 
