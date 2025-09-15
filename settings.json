@@ -53,6 +53,13 @@
 	"editor.linkedEditing": true,
 	/******************** EDITOR ********************/
 
+	/********************** AI **********************/
+	"codeium.enableConfig": {
+		"*": true,
+		"markdown": true
+	},
+	/********************** AI **********************/
+
 	/********************* EMMET *********************/
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.includeLanguages": {
@@ -230,14 +237,18 @@
 
 	/******************** GO ********************/
 	"[go]": {
-		"editor.defaultFormatter": "gofenix.go-lines",
+		"editor.defaultFormatter": "golang.go",
 		"editor.insertSpaces": true,
 		"editor.codeActionsOnSave": {
-			"source.organizeImports": "explicit"
+			"source.organizeImports": "always"
 		}
 	},
 	"[go.mod]": {
 		"editor.defaultFormatter": "golang.go"
+	},
+	"go.formatTool": "custom",
+	"go.alternateTools": {
+		"customFormatter": "golines"
 	},
 	"go.lintOnSave": "package",
 	"go.useLanguageServer": true,
