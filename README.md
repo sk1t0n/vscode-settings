@@ -8,7 +8,7 @@
 <summary>Содержание</summary>
 
 - [Замена настроек VS Code](#замена-настроек-vs-code)
-- [92 Расширения для VS Code](#92-расширения-для-vs-code)
+- [94 Расширения для VS Code](#94-расширения-для-vs-code)
   - [AI](#ai)
   - [Git](#git)
   - [Docker, Kubernetes](#docker-kubernetes)
@@ -23,6 +23,7 @@
   - [Python](#python)
   - [Go](#go)
   - [Rust](#rust)
+  - [Protobuf](#protobuf)
   - [HTML, XML](#html-xml)
   - [CSS](#css)
   - [Markdown](#markdown)
@@ -39,7 +40,7 @@
 2. Ввести json, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**.
 3. Частично или полностью заменить содержимое открытого файла содержимым файла **settings.json** из репозитория.
 
-## 92 Расширения для VS Code
+## 94 Расширения для VS Code
 
 ### AI
 
@@ -85,6 +86,7 @@
 2. [SQLTools PostgreSQL/Cockroach Driver](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-pg)
 3. [SQLTools MySQL/MariaDB](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-mysql)
 4. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
+5. [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
 
 ### PHP
 
@@ -142,6 +144,10 @@
 ### Rust
 
 1. [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+### Protobuf
+
+1. [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
 
 ### HTML, XML
 
