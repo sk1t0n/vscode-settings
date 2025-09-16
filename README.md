@@ -8,7 +8,7 @@
 <summary>Содержание</summary>
 
 - [Замена настроек VS Code](#замена-настроек-vs-code)
-- [94 Расширения для VS Code](#94-расширения-для-vs-code)
+- [98 расширений для VS Code](#98-расширений-для-vs-code)
   - [AI](#ai)
   - [Git](#git)
   - [Docker, Kubernetes](#docker-kubernetes)
@@ -17,6 +17,7 @@
   - [Единый формат настроек для популярных редакторов кода и IDE](#единый-формат-настроек-для-популярных-редакторов-кода-и-ide)
   - [Apache, Nginx](#apache-nginx)
   - [Базы данных](#базы-данных)
+  - [Тестирование](#тестирование)
   - [PHP](#php)
     - [Laravel](#laravel)
   - [JavaScript, TypeScript](#javascript-typescript)
@@ -40,7 +41,7 @@
 2. Ввести json, выбрать пункт **Preferences: Open User Settings (JSON)** и нажать **ENTER**.
 3. Частично или полностью заменить содержимое открытого файла содержимым файла **settings.json** из репозитория.
 
-## 94 Расширения для VS Code
+## 98 расширений для VS Code
 
 ### AI
 
@@ -88,6 +89,11 @@
 4. [SQLTools SQLite](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools-driver-sqlite)
 5. [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
 
+### Тестирование
+
+1. [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
+2. [Test Adapter Converter](https://marketplace.visualstudio.com/items?itemName=ms-vscode.test-adapter-converter)
+
 ### PHP
 
 1. [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
@@ -105,8 +111,8 @@
 13. [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
 14. [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
 15. [PHP Profiler](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
-16. [PHPUnit Test Explorer](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit)
-17. [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
+16. [PHP Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
+17. [PHPUnit Test Explorer](https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit)
 
 #### Laravel
 
@@ -128,6 +134,7 @@
 3. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 4. [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 5. [Document This](https://marketplace.visualstudio.com/items?itemName=oouo-diogo-perdigao.docthis)
+6. [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 
 ### Python
 
@@ -140,6 +147,7 @@
 
 1. [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
 2. [go-lines](https://marketplace.visualstudio.com/items?itemName=gofenix.go-lines)
+3. [Go Test Explorer](https://marketplace.visualstudio.com/items?itemName=ethan-reesor.vscode-go-test-adapter)
 
 ### Rust
 
