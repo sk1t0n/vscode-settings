@@ -35,6 +35,8 @@
 	/****************** WORKBENCH ******************/
 	"workbench.activityBar.location": "top",
 	"workbench.statusBar.visible": true,
+	"workbench.navigationControl.enabled": false,
+	"workbench.layoutControl.enabled": false,
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.colorTheme": "GitHub Dark",
