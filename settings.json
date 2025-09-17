@@ -29,7 +29,7 @@
 	/******************** FILES ********************/
 
 	/****************** BREADCRUMBS ******************/
-	"breadcrumbs.enabled": true,
+	"breadcrumbs.enabled": false,
 	/****************** BREADCRUMBS ******************/
 
 	/****************** WORKBENCH ******************/
@@ -37,6 +37,9 @@
 	"workbench.statusBar.visible": true,
 	"workbench.navigationControl.enabled": false,
 	"workbench.layoutControl.enabled": false,
+	"workbench.editor.showTabs": "single",
+	"workbench.editor.showIcons": false,
+	"workbench.editor.labelFormat": "medium",
 	"workbench.enableExperiments": false,
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.colorTheme": "GitHub Dark",
