@@ -9,7 +9,7 @@
 
 - [Замена настроек](#замена-настроек)
 - [Замена горячих клавиш](#замена-горячих-клавиш)
-- [99 расширений для VS Code](#99-расширений-для-vs-code)
+- [100 расширений для VS Code](#100-расширений-для-vs-code)
   - [AI](#ai)
   - [Git](#git)
   - [Docker, Kubernetes](#docker-kubernetes)
@@ -46,7 +46,7 @@
 
 Открыть файл `~/.config/Code/User/keybindings.json` и частично или полностью заменить содержимое на содержимое файла **keybindings.json** из репозитория.
 
-## 99 расширений для VS Code
+## 100 расширений для VS Code
 
 ### AI
 
@@ -212,6 +212,7 @@
 13. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 14. [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 15. [Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
+16. [Grafana Alloy](https://marketplace.visualstudio.com/items?itemName=Grafana.grafana-alloy)
 
 ## Лицензия
 
