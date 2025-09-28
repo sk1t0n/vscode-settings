@@ -9,7 +9,7 @@
 
 - [Замена настроек](#замена-настроек)
 - [Замена горячих клавиш](#замена-горячих-клавиш)
-- [100 расширений для VS Code](#100-расширений-для-vs-code)
+- [101 расширение для VS Code](#101-расширение-для-vs-code)
   - [AI](#ai)
   - [Git](#git)
   - [Docker, Kubernetes](#docker-kubernetes)
@@ -46,7 +46,7 @@
 
 Открыть файл `~/.config/Code/User/keybindings.json` и частично или полностью заменить содержимое на содержимое файла **keybindings.json** из репозитория.
 
-## 100 расширений для VS Code
+## 101 расширение для VS Code
 
 ### AI
 
@@ -183,6 +183,7 @@
 2. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 3. [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 4. [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+5. [Markdown Table Prettifier](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
 
 ### YAML, Neon, TOML
 

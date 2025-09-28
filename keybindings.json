@@ -20,5 +20,10 @@
 		"key": "ctrl+alt+e",
 		"command": "workbench.files.action.focusOpenEditorsView",
 		"when": "workbench.explorer.openEditorsView.active"
+	},
+	{
+		"key": "ctrl+alt+m",
+		"command": "markdownTablePrettify.prettifyTables",
+		"when": "editorTextFocus && !editorReadonly && !inCompositeEditor"
 	}
 ]
