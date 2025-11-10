@@ -46,7 +46,7 @@
 
 Открыть файл `~/.config/Code/User/keybindings.json` и частично или полностью заменить содержимое на содержимое файла **keybindings.json** из репозитория.
 
-## 101 расширение для VS Code
+## 102 расширения для VS Code
 
 ### AI
 
@@ -198,22 +198,23 @@
 
 ### Разное
 
-1. [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-2. [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude)
-3. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-4. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-5. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-6. [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-7. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-8. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-9. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-10. [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-11. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-12. [Draw Folder Structure](https://marketplace.visualstudio.com/items?itemName=jmkrivocapich.drawfolderstructure)
-13. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
-14. [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
-15. [Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
-16. [Grafana Alloy](https://marketplace.visualstudio.com/items?itemName=Grafana.grafana-alloy)
+1. [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style)
+2. [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+3. [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude)
+4. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+5. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+6. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+7. [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+8. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+9. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+10. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+11. [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+12. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+13. [Draw Folder Structure](https://marketplace.visualstudio.com/items?itemName=jmkrivocapich.drawfolderstructure)
+14. [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+15. [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+16. [Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
+17. [Grafana Alloy](https://marketplace.visualstudio.com/items?itemName=Grafana.grafana-alloy)
 
 ## Лицензия
 

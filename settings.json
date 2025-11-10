@@ -32,6 +32,24 @@
 	"breadcrumbs.enabled": false,
 	/****************** BREADCRUMBS ******************/
 
+	/*************** CUSTOM UI STYLE EXTENSION ***************/
+	// Help => Toggle Developer Tools
+	"custom-ui-style.stylesheet": {
+		"#status\\.problems": {
+			"display": "none !important"
+		},
+		"#status\\.windowZoom": {
+			"display": "none !important"
+		},
+		"#status\\.editor\\.mode": {
+			"display": "none !important"
+		},
+		"#status\\.editor\\.selection": {
+			"display": "none !important"
+		}
+	},
+	/*************** CUSTOM UI STYLE EXTENSION ***************/
+
 	/****************** WORKBENCH ******************/
 	"workbench.activityBar.location": "top",
 	"workbench.statusBar.visible": true,
