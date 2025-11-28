@@ -7,18 +7,18 @@
 <details>
 <summary>Содержание</summary>
 
-- [Замена настроек](#замена-настроек)
-- [Замена горячих клавиш](#замена-горячих-клавиш)
-- [101 расширение для VS Code](#101-расширение-для-vs-code)
+- [Замена настроек](#%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA)
+- [Замена горячих клавиш](#%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D1%85-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88)
+- [102 расширения для VS Code](#102-%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-vs-code)
   - [AI](#ai)
   - [Git](#git)
   - [Docker, Kubernetes](#docker-kubernetes)
-  - [Переменные среды](#переменные-среды)
-  - [Проверка орфографии](#проверка-орфографии)
-  - [Единый формат настроек для популярных редакторов кода и IDE](#единый-формат-настроек-для-популярных-редакторов-кода-и-ide)
+  - [Переменные среды](#%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D1%80%D0%B5%D0%B4%D1%8B)
+  - [Проверка орфографии](#%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D0%BE%D1%80%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8)
+  - [Единый формат настроек для популярных редакторов кода и IDE](#%D0%B5%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2-%D0%BA%D0%BE%D0%B4%D0%B0-%D0%B8-ide)
   - [Apache, Nginx](#apache-nginx)
-  - [Базы данных](#базы-данных)
-  - [Тестирование](#тестирование)
+  - [Базы данных](#%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+  - [Тестирование](#%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
   - [PHP](#php)
     - [Laravel](#laravel)
   - [JavaScript, TypeScript](#javascript-typescript)
@@ -30,9 +30,9 @@
   - [CSS](#css)
   - [Markdown](#markdown)
   - [YAML, Neon, TOML](#yaml-neon-toml)
-  - [Темы, иконки](#темы-иконки)
-  - [Разное](#разное)
-- [Лицензия](#лицензия)
+  - [Темы, иконки](#%D1%82%D0%B5%D0%BC%D1%8B-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8)
+  - [Разное](#%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5)
+- [Лицензия](#%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F)
 
 </details>
 
@@ -101,15 +101,15 @@
 
 ### PHP
 
-1. [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
-2. [PHPUnit Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.phpunit-snippets)
-3. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
-4. [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
-5. [PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
-6. [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-7. [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
-8. [PhpStorm Parameter Hints in VScode](https://marketplace.visualstudio.com/items?itemName=MrChetan.phpstorm-parameter-hints-in-vscode)
-9. [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+01. [PHP Awesome Snippets](https://marketplace.visualstudio.com/items?itemName=hakcorp.php-awesome-snippets)
+02. [PHPUnit Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.phpunit-snippets)
+03. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+04. [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
+05. [PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
+06. [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+07. [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
+08. [PhpStorm Parameter Hints in VScode](https://marketplace.visualstudio.com/items?itemName=MrChetan.phpstorm-parameter-hints-in-vscode)
+09. [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
 10. [PHP Getters & Setters](https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters)
 11. [PHP Constructor](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)
 12. [PHP Add Property](https://marketplace.visualstudio.com/items?itemName=kotfire.php-add-property)
@@ -121,15 +121,15 @@
 
 #### Laravel
 
-1. [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
-2. [Laravel Model Snippets](https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets)
-3. [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
-4. [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
-5. [Laravel Ide Helper](https://marketplace.visualstudio.com/items?itemName=georgykurian.laravel-ide-helper)
-6. [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
-7. [Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
-8. [laravel-goto-components](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components)
-9. [Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)
+01. [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
+02. [Laravel Model Snippets](https://marketplace.visualstudio.com/items?itemName=ahinkle.laravel-model-snippets)
+03. [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+04. [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
+05. [Laravel Ide Helper](https://marketplace.visualstudio.com/items?itemName=georgykurian.laravel-ide-helper)
+06. [Laravel Artisan](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+07. [Laravel goto view](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
+08. [laravel-goto-components](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components)
+09. [Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)
 10. [Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
 
 ### JavaScript, TypeScript
@@ -198,15 +198,15 @@
 
 ### Разное
 
-1. [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style)
-2. [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-3. [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude)
-4. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-5. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-6. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-7. [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-8. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-9. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+01. [Custom UI Style](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style)
+02. [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+03. [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude)
+04. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+05. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+06. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+07. [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+08. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+09. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 10. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 11. [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 12. [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
@@ -218,4 +218,4 @@
 
 ## Лицензия
 
-[MIT](LICENSE)
+[MIT](https://opensource.org/license/mit)
