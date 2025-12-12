@@ -106,7 +106,7 @@
 03. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 04. [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
 05. [PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
-06. [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+06. [vscode-phpactor](https://marketplace.visualstudio.com/items?itemName=phpactor.vscode-phpactor)
 07. [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
 08. [PhpStorm Parameter Hints in VScode](https://marketplace.visualstudio.com/items?itemName=MrChetan.phpstorm-parameter-hints-in-vscode)
 09. [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
