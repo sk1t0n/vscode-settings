@@ -2,7 +2,9 @@
 	/********************** AI **********************/
 	"codeium.enableConfig": {
 		"*": true,
-		"markdown": true
+		"markdown": true,
+		"mustache": true,
+		"gradle-kotlin-dsl": true
 	},
 	/********************** AI **********************/
 
@@ -10,6 +12,7 @@
 	"telemetry.telemetryLevel": "all",
 	"redhat.telemetry.enabled": false,
 	"rest-client.enableTelemetry": false,
+	"jdk.telemetry.enabled": false,
 	/****************** TELEMETRY ******************/
 
 	/********************** SECURITY **********************/
@@ -98,6 +101,7 @@
 	"git.suggestSmartCommit": false,
 	"git.confirmSync": false,
 	"git.ignoreRebaseWarning": true,
+	"git.openRepositoryInParentFolders": "always",
 	/********************** GIT **********************/
 
 	/****************** DIFF EDITOR ******************/
@@ -219,21 +223,6 @@
 	"php-cs-fixer.lastDownload": 0,
 	/************** PHP CS FIXER EXTENSION **************/
 
-	/************ PHP INTELEPHENSE EXTENSION ************/
-	"intelephense.telemetry.enabled": false,
-	"intelephense.files.exclude": [
-		"**/.git/**",
-		"**/.svn/**",
-		"**/.hg/**",
-		"**/CVS/**",
-		"**/.DS_Store/**",
-		"**/node_modules/**",
-		"**/bower_components/**",
-		"**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
-	],
-	"intelephense.files.associations": ["*.php", "*.phtml"],
-	/************ PHP INTELEPHENSE EXTENSION ************/
-
 	/*********************** BLADE ***********************/
 	"[blade]": {
 		"editor.defaultFormatter": "shufo.vscode-blade-formatter"
@@ -293,6 +282,18 @@
 	},
 	"rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"],
 	/******************* RUST *******************/
+
+	/******************* JAVA *******************/
+	"[java]": {
+		"editor.defaultFormatter": "Oracle.oracle-java"
+	},
+	/******************* JAVA *******************/
+
+	/****************** KOTLIN ******************/
+	"[kotlin]": {
+		"editor.defaultFormatter": "fwcd.kotlin"
+	},
+	/****************** KOTLIN ******************/
 
 	/**************** EXTENSIONS ****************/
 	"extensions.autoCheckUpdates": false,
