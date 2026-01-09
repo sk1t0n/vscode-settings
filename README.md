@@ -25,6 +25,7 @@
   - [Python](#python)
   - [Go](#go)
   - [Rust](#rust)
+  - [Java, Kotlin](#java-kotlin)
   - [Protobuf](#protobuf)
   - [HTML, XML](#html-xml)
   - [CSS](#css)
@@ -46,7 +47,7 @@
 
 Открыть файл `~/.config/Code/User/keybindings.json` и частично или полностью заменить содержимое на содержимое файла **keybindings.json** из репозитория.
 
-## 102 расширения для VS Code
+## 112 расширения для VS Code
 
 ### AI
 
@@ -158,9 +159,22 @@
 
 1. [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
+### Java, Kotlin
+
+01. [Java](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
+02. [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+03. [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
+04. [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+05. [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+06. [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
+07. [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+08. [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+09. [Spring Initializr for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr)
+10. [Mustache Templates - Syntax Highlighting, Snippets & Autocomplete](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-mustache-snippets)
+
 ### Protobuf
 
-1. [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
+1. [Protobuf VSC](https://marketplace.visualstudio.com/items?itemName=DrBlury.protobuf-vsc)
 
 ### HTML, XML
 
