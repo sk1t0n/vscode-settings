@@ -1,5 +1,15 @@
 [
 	{
+		"key": "ctrl+s",
+		"command": "workbench.action.files.save"
+	},
+	{
+		"key": "ctrl+s",
+		"when": "editorLangId == kotlin",
+		"command": "workbench.action.tasks.runTask",
+		"args": "Format Kotlin file with ktlint"
+	},
+	{
 		"key": "ctrl+e",
 		"command": "editor.action.duplicateSelection"
 	},

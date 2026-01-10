@@ -291,7 +291,7 @@
 
 	/****************** KOTLIN ******************/
 	"[kotlin]": {
-		"editor.defaultFormatter": "fwcd.kotlin"
+		"editor.formatOnSave": false
 	},
 	/****************** KOTLIN ******************/
 
