@@ -163,7 +163,7 @@
 
 01. [Java](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
 02. [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
-03. [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
+03. [Language Server for Kotlin](https://github.com/Kotlin/kotlin-lsp/releases)
 04. [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
 05. [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
 06. [Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
