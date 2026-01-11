@@ -291,7 +291,7 @@
 
 	/****************** KOTLIN ******************/
 	"[kotlin]": {
-		"editor.formatOnSave": false
+		"editor.defaultFormatter": "JetBrains.kotlin"
 	},
 	/****************** KOTLIN ******************/
 
